@@ -1,0 +1,214 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='Stanislav Olsson')
+
+        title Resume
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.1/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Stanislav Olsson
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='')
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Stanislav 
+                        span.text-primary Olsson
+                    .subheading.mb-5
+                        | Svarvargatan 10 · 11249 Stockholm · (+46) 767108667 · 
+                        a(href='mailto:stanislav.olsson@hotmail.com') stanislav.olsson@hotmail.com
+                    p.lead.mb-5
+                        | Front end developer with a passion for UX-thinking and mobile-first, responsive web design approach. I have a keen interest in the latest technologies and an eye for crisp, modern UI design and microcopy. 
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/stanislav-olsson/' target="_blank")
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/LinearSDecoded' target="_blank")
+                            i.fab.fa-github
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Front end developer / System manager
+                            .subheading.mb-3 Tele2 AB, Stockholm
+                            p
+                                | · Replacing the legacy network monitoring app with a cross-platform system that works smoothly on any device and any screen size.
+                            p    · Improving the system's usability and visual design along the way.
+
+                        .flex-shrink-0
+                            span.text-primary August 2020 - January 2021
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Front end developer
+                            .subheading.mb-3 Fondab AB, Stockholm 
+                            p
+                                | · Overhauling the front end for the legacy fund trading platform, making it modern, sleek and responsive.
+                            p · Improving the navigation and responsiveness for company's homepage.
+                        .flex-shrink-0
+                            span.text-primary March 2020 - June 2020
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Fullstack developer
+                            .subheading.mb-3 Scania AB, Stockholm
+                            p
+                                | · Phased out the legacy front end and replaced it with the latest Angular version, ensuring 25% decrease in loading time.
+                            p · Contributed to decreasing platform's build & deploy time from 4 hours to 15 minutes. 
+                            p · Reorganized the Scania website's 150 pages into 3 a layer architecture, reducing the maximum amount of clicks required to reach any page to 3.
+
+
+                        .flex-shrink-0
+                            span.text-primary August 2018 - January 2020
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Web developer
+                            .subheading.mb-3 Neurolearn AB, Örebro
+                            p 
+                                | · Created a responsive landing page for an AI startup using WordPress.
+                            p · Pixel-perfect transformation of high level prototypes to an up and running website.
+
+                        .flex-shrink-0
+                            span.text-primary June 2018 - July 2020
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Developer intern
+                            .subheading.mb-3 KnowIT AB, Örebro
+                            p
+                                | · Created a non-profit platform for donating food surplus to charity.
+                            p    · Featured as the best student project of 2018 at the Örebro University.
+                        .flex-shrink-0
+                            span.text-primary January 2018 - June 2018
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Örebro University
+                            .subheading.mb-0 Bachelor of Science
+                            div.mb-3 Computer Science
+                            .subheading.mb-0 Key courses: 
+                            p JavaScript & JQuery · HTML & CSS · .Net · SQL Server · Interaction Design · Agile Methods
+                        .flex-shrink-0
+                            span.text-primary September 2014 - June 2018
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-html5
+                        li.list-inline-item
+                            i.fab.fa-css3-alt
+                        li.list-inline-item
+                            i.fab.fa-js-square
+                        li.list-inline-item
+                            i.fab.fa-angular
+                        li.list-inline-item
+                            i.fab.fa-node-js
+                        li.list-inline-item 
+                            i.fab.fa-vuejs
+                        li.list-inline-item
+                            i.fab.fa-sass
+                        li.list-inline-item
+                            i.fab.fa-less
+                        li.list-inline-item
+                            i.fab.fa-wordpress
+                        li.list-inline-item
+                            i.fab.fa-npm
+                    .subheading.mb-3 Workflow
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Mobile-First, Responsive Design
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Cross Browser Testing & Debugging
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Cross Functional Teams
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Agile Development & Scrum
+
+            hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p
+                        | Apart from being a web developer, I enjoy working out at a gym, spending time with friends and family and travelling. I've recently started to try my hand at DJ:ing and as of now, I am part of two DJ collectives.
+                    p.mb-0
+                        | When I'm not doint all of the above, I do music streams and I study UX design as well as UX writing on my own accord. I'm planning to pursue relevant education in those areas when the opportunity arises.
+
+            hr.m-0
+
+
+        // Bootstrap core JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js')
+
+        // Third party plugin JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
